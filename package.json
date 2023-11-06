@@ -10,11 +10,7 @@
     "fmt": "prettier --write ."
   },
   "dependencies": {
-    "@terminus/engine-shell": "^1.11.1",
-    "@terminus/engine-shell-lab": "^1.0.0",
-    "@terminus/t-runtime": "^2.17.1",
-    "antd": "^4.24.14",
-    "ramda": "^0.29.1"
+    "antd": "^4.24.14"
   },
   "devDependencies": {
     "@types/node": "^20",
