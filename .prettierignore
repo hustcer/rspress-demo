@@ -1,0 +1,7 @@
+pnpm-lock.yaml
+# Dependencies
+/node_modules
+
+# Production
+/docs-dist
+lefthook.yml

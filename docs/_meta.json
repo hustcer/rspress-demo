@@ -1,0 +1,12 @@
+[
+  {
+    "text": "Home",
+    "link": "/index",
+    "activeMatch": "/index"
+  },
+  {
+    "text": "RSPress API",
+    "tag": "/images/link-external.svg",
+    "link": "https://rspress.dev/api/index.html"
+  }
+]

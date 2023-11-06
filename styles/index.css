@@ -1,0 +1,32 @@
+:root {
+  .rspress-nav-menu {
+    a img {
+      width: 18px;
+      height: 18px;
+      margin-right: 5px;
+    }
+  }
+
+  .rspress-sidebar {
+    .rspress-scrollbar {
+      overflow: auto !important;
+    }
+  }
+
+  .rspress-doc {
+    /* Toml syntax highlighting style fix: the first line should not be broken into multiple lines */
+    code.language-toml {
+      span.table {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+:root.dark {
+  .rspress-nav-menu {
+    a img {
+      filter: invert(100%) !important;
+    }
+  }
+}
